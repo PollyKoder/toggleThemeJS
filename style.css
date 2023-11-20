@@ -7,6 +7,8 @@
 /* Light theme */
 .body {
     background-color: #e4e2e2;
+    background-image: url(Images/Light.jpg);
+    background-blend-mode: color-dodge;
     color: #a70202;
 }
 
@@ -19,9 +21,34 @@
     display: none;
 }
 
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.divCard {
+    text-align: center;
+    width: 400px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.textTwo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
 /*Dark theme*/
 .darkTheme {
     background-color: #800080;
+    background-image: url(Images/Dark\ \(2\).jpg);
+    background-size: contain;
+    background-blend-mode: color-dodge;
     color: #ff6229;
     .light {
         display: none;
@@ -29,6 +56,14 @@
     
     .dark {
         display: flex;
+        text-align: center;
+    }
+    .divCard{
+        background-color: black;
+    }
+    .textOne {
+        display: flex;
+        justify-content: center;
         text-align: center;
     }
 }
