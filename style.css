@@ -31,7 +31,8 @@
 
 .divCard {
     text-align: center;
-    width: 400px;
+    width: 450px;
+    height: 90px;
     background-color: green;
     border-radius: 10px;
 }
